@@ -16,7 +16,7 @@ function doGet(e) {
     .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
 }
 
-// Include HTML components/css if separated
+// Include HTML components/css if separated (used in multi-file GAS layouts)
 function include(filename) {
   return HtmlService.createHtmlOutputFromFile(filename).getContent();
 }
