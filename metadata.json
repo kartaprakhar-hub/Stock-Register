@@ -1,0 +1,6 @@
+{
+  "name": "StockFlow",
+  "description": "Enterprise Inventory & Allotment System with multi-role simulation, real-time stock register, self-service allotment requests, authorization workflows, and scrap register.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
